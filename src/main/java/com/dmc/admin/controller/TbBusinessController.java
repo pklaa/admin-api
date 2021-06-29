@@ -52,9 +52,7 @@ public class TbBusinessController {
     @PostMapping("/getDepotList")
     @ApiOperation(value = "获取所有店铺列表(添加)")
     public ResponseResult getDepotList(){
-
         return depotService.getApiAllDepot();
-
     }
 
     @PostMapping("/getBusinessList")
